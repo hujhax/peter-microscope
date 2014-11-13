@@ -13,5 +13,6 @@ Template.postSubmit.events(
                 return alert(error.reason);
             }
             Router.go('postPage', {_id: result._id});
+        });
     }
 });
